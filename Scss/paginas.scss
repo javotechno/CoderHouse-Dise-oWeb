@@ -1,0 +1,380 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 8px;
+}
+
+/* -animaciones-- */
+@keyframes "appear" {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+/* -/* -INDEX Y TIPOS DE VOLCANES - ROCAS IGNEAS --- */
+/*- FLEX CODE --*/
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 8px;
+}
+body {
+  background-color: #37415f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  color: antiquewhite;
+  text-align: center;
+  animation: reverse;
+  animation-duration: 1s;
+}
+.navegacion {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+.logo {
+  width: 10rem;
+  height: 10rem;
+  margin: 0.5rem;
+  &:hover {
+    filter: brightness(130%);
+  }
+}
+.nombreLogo {
+  color: antiquewhite;
+}
+.menu {
+  align-items: center;
+  li {
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    margin: 0px 1rem;
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      &:hover {
+        filter: opacity(50%);
+        transition: 0.25s;
+      }
+    }
+  }
+}
+.bienvenida {
+  background-image: url("../imagenes/Volcan_main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.redes {
+  img {
+    height: 3.5rem;
+    width: 3.5rem;
+    filter: grayscale(100%);
+    &:hover {
+      filter: grayscale(0%);
+      transition: 1s;
+    }
+  }
+  li {
+    display: inline;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.al-inicio {
+  color: antiquewhite;
+  text-decoration: none;
+}
+.textoInterior {
+  color: antiquewhite;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.582);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  filter: none;
+}
+.contenedorFlexBody {
+  display: flex;
+  flex-flow: column wrap;
+}
+.contenedorFlex {
+  display: flex;
+  text-align: center;
+  row-gap: 3.5rem;
+  margin: 2rem;
+  div {
+    justify-content: center;
+  }
+}
+.imagenAnimada {
+  display: flex;
+  div {
+    &:hover {
+      transform: scale(1.2);
+      filter: grayscale(70%);
+      transition: all 1.2s;
+    }
+  }
+}
+.selectorVolcanes {
+  display: flex;
+  align-items: center;
+  background-image: url(../imagenes/volcanMain.jpg);
+  background-size: cover;
+  background-position-x: -4rem;
+  height: 40rem;
+  width: 40rem;
+  border-radius: 3rem;
+  margin: 3rem;
+  h3 {
+    transform: scale(1.5);
+    filter: opacity(0);
+    &:hover {
+      transform: scale(1.8);
+      filter: opacity(1);
+      transition: 1s;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.selectorIgneas {
+  display: flex;
+  align-items: center;
+  background-image: url(../imagenes/volcanMain.jpg);
+  background-size: cover;
+  background-position-x: -4rem;
+  height: 40rem;
+  width: 40rem;
+  border-radius: 3rem;
+  margin: 3rem;
+  background-image: url(../imagenes/rocasIgneas.jpg);
+  background-position: center center;
+  h3 {
+    transform: scale(1.5);
+    filter: opacity(0);
+    &:hover {
+      transform: scale(1.8);
+      filter: opacity(1);
+      transition: 1s;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.header {
+  grid-area: header;
+}
+.titulo {
+  grid-area: titulo;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.aside {
+  grid-area: aside;
+  display: flex;
+  justify-content: center;
+}
+.navInterno {
+  text-decoration: none;
+  color: antiquewhite;
+  padding-top: 10rem;
+  margin: 2rem 0px;
+  font-weight: bold;
+}
+.parches {
+  a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  p {
+    margin: 2rem;
+  }
+}
+.notas1 {
+  grid-area: notas1;
+  padding-top: 6rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+}
+.notas2 {
+  grid-area: notas2;
+  padding: 1rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+}
+.notas3 {
+  grid-area: notas3;
+  padding: 1rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+}
+.imagen1 {
+  grid-area: imagen1;
+  height: 25rem;
+  border-radius: 10px;
+  margin: 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position-y: -14rem;
+}
+.imagen2 {
+  grid-area: imagen2;
+  height: 25rem;
+  border-radius: 10px;
+  margin: 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position-y: -9rem;
+}
+.imagen3 {
+  grid-area: imagen3;
+  height: 25rem;
+  border-radius: 10px;
+  margin: 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position-y: -9rem;
+}
+.imagen4 {
+  grid-area: imagen4;
+  height: 25rem;
+  border-radius: 10px;
+  margin: 1.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position-y: -9rem;
+}
+
+/* ---ROCAS IGNEAS--- */
+.hawiano1 {
+  background-size: cover;
+  background-position-y: -5.5rem;
+}
+.estramboliano2 {
+  background-size: cover;
+  background-position-y: -5.5rem;
+}
+.vulcaniano1 {
+  background-size: cover;
+  background-position-y: -3.5rem;
+}
+.peleano1 {
+  background-size: cover;
+  background-position-y: -3.5rem;
+}
+.imgTitulovolcanes {
+  background: url(..//imagenes/volcan-header.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+.AsideTitulo {
+  padding-top: 6rem;
+}
+.granito1 {
+  background-image: url();
+  background-size: cover;
+}
+.ejemplosrocas {
+  background-image: url();
+  background-size: cover;
+}
+.imgTitulorocas {
+  background: url(../imagenes/rocastitulo.jpg) center no-repeat;
+  height: 80vh;
+  width: auto;
+}
+
+.nosotrosFlex {
+  display: flex;
+  flex-flow: column wrap;
+  animation: appear;
+  animation-duration: 1s;
+}
+.mainNosotros {
+  margin: 1rem 10rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  div {
+    background-color: antiquewhite;
+    border-radius: 3rem;
+    color: #11131a;
+    margin: 10rem;
+  }
+  h2 {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+}
+.imgFlex1 {
+  height: 60rem;
+  border-radius: 3rem;
+  padding: 0.1rem;
+  width: 75rem;
+}
+.imgFlex2 {
+  height: 60rem;
+  border-radius: 3rem;
+  padding: 0.1rem;
+  width: 75rem;
+}
+.dataFlex1 {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.dataFlex2 {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  align-items: center;
+}
+.footerNosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}

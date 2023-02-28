@@ -1,0 +1,268 @@
+/* -----MEDIA QUERY 1024PX----- */
+/* --MEDIA QUERY TABLET-- */
+/* ---s-MEDIA QUERY MOBILE---- */
+@media screen and (max-width: 1024px) {
+  .bienvenida {
+    background-image: url(../imagenes/Volcan_main.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 1000px;
+    background-position: center center;
+  }
+  .textoInterior {
+    color: antiquewhite;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 3rem;
+    border-radius: 2rem;
+    filter: none;
+    margin-bottom: 30rem;
+  }
+  .imagen1 {
+    background-position-y: 0rem;
+  }
+  .imagen2 {
+    background-position-y: 0rem;
+  }
+  .imagen3 {
+    background-position-y: 0rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .imagenAnimada {
+    flex-direction: column;
+  }
+  .aside {
+    display: none;
+  }
+  .header {
+    width: 100%;
+  }
+  .navegacion {
+    flex-flow: row wrap;
+  }
+  .titulo {
+    background-position-x: -240px;
+    width: 100%;
+  }
+  .imgTitulorocas {
+    background-position-x: 1px;
+    background-position-y: 1px;
+    width: 100%;
+  }
+  .parches {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer {
+    width: 100%;
+  }
+  .contenedorFlexBody {
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    div {
+      width: 100%;
+      justify-content: center;
+    }
+    header {
+      width: 100%;
+    }
+    footer {
+      width: 100%;
+    }
+  }
+  .contenedorFlex {
+    margin: 2rem 0rem;
+  }
+  .formulario {
+    width: 100%;
+  }
+  .nosotrosFlex {
+    width: auto;
+  }
+  .headerNosotros {
+    width: 100%;
+  }
+  .mainNosotros {
+    width: 100%;
+    margin: 4rem 0rem;
+    div {
+      margin: 1rem 0rem;
+    }
+  }
+  .dataFlex1 {
+    flex-flow: column wrap;
+    align-content: center;
+  }
+  .dataFlex2 {
+    flex-flow: column wrap;
+    align-content: center;
+  }
+  .footerNosotros {
+    width: 100%;
+  }
+  .notas1 {
+    justify-content: center;
+    height: auto;
+    width: inherit;
+    padding: 1rem;
+  }
+  .notas2 {
+    justify-content: center;
+    height: auto;
+    width: inherit;
+    padding: 1rem;
+  }
+  .notas3 {
+    justify-content: center;
+    height: auto;
+    width: inherit;
+    padding: 1rem;
+  }
+  .imagen1 {
+    background-position-y: 0rem;
+  }
+  .imagen2 {
+    background-position-y: 0rem;
+  }
+  .imagen3 {
+    background-position-y: 0rem;
+  }
+  .divBoton {
+    align-items: center;
+    label {
+      width: 100%;
+    }
+  }
+  .hawaiano1 {
+    padding-top: 20rem;
+  }
+  .estramboliano1 {
+    padding-top: 20rem;
+  }
+  .vulcaniano1 {
+    padding-top: 20rem;
+  }
+  .peleano1 {
+    padding-top: 20rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .navegacion {
+    flex-flow: row wrap;
+  }
+  .header {
+    width: 100%;
+  }
+  .titulo {
+    background-position-x: -498px;
+    width: 100%;
+  }
+  .imgTitulorocas {
+    .imgTitulovolcanes {
+      background-position-x: -10rem;
+      background-position-y: 1px;
+      width: 100%;
+    }
+  }
+  .parches {
+    width: 100%;
+    p {
+      margin: 1rem;
+    }
+  }
+  .footer {
+    width: 100%;
+  }
+  .contenedorFlexBody {
+    div {
+      width: 100%;
+      justify-content: center;
+    }
+    header {
+      width: 100%;
+    }
+    footer {
+      width: 100%;
+    }
+  }
+  .contenedorFlex {
+    margin: 2rem 0rem;
+  }
+  .formulario {
+    width: 100%;
+    margin: 4rem 0rem;
+  }
+  .divBoton {
+    flex-flow: column wrap;
+  }
+  .divForm {
+    label {
+      width: 100%;
+    }
+    input {
+      width: 100%;
+    }
+    textarea {
+      width: 100%;
+    }
+  }
+  .headerNosotros {
+    width: 100%;
+  }
+  .mainNosotros {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+  .footerNosotros {
+    width: 100%;
+  }
+  .dataFlex1 {
+    img {
+      width: 37rem;
+      height: 35rem;
+    }
+  }
+  .dataFlex2 {
+    img {
+      width: 37rem;
+      height: 35rem;
+    }
+  }
+  .notas1 {
+    justify-content: center;
+    height: auto;
+    width: inherit;
+    padding: 1rem;
+  }
+  .notas2 {
+    justify-content: center;
+    height: auto;
+    width: inherit;
+    padding: 1rem;
+  }
+  .notas3 {
+    justify-content: center;
+    height: auto;
+    width: inherit;
+    padding: 1rem;
+  }
+  .imgTitulovolcanes {
+    background-image: url(..//imagenes/volcan-header.jpg);
+    background-image: center center;
+    width: auto;
+  }
+  .bienvenida {
+    background-image: url(../imagenes/Volcan_main.jpg);
+    background-image: center center;
+    background-position: center center;
+    width: auto;
+  }
+  .granito1 {
+    padding-top: 20rem;
+  }
+  .ejemplosrocas {
+    padding-top: 20rem;
+  }
+}

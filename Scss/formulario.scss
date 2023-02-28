@@ -1,0 +1,77 @@
+/* --CONTACTO-- */
+.formulario {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 8rem auto;
+  background-color: rgb(250, 235, 215);
+  align-items: center;
+  width: 90rem;
+  height: auto;
+  border-radius: 2.5rem;
+  h2 {
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    font-weight: bolder;
+  }
+  label {
+    width: 90rem;
+    display: flex;
+    justify-content: center;
+  }
+  input {
+    width: 60rem;
+    height: 5rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: solid;
+    border-width: 0.1rem;
+  }
+  form {
+    margin: 0;
+    padding: 2.5rem;
+  }
+}
+.divForm {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 2rem;
+  label {
+    width: 100%;
+  }
+  h3 {
+    color: black;
+  }
+  textarea {
+    width: 50rem;
+    margin: 2.5rem;
+    text-align: center;
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 1.5rem;
+  }
+}
+.divBoton {
+  display: flex;
+  flex-direction: row;
+  label {
+    width: 100%;
+  }
+  input {
+    width: 35rem;
+  }
+  button {
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: solid black 1px;
+    padding: 0.5rem;
+    &:hover {
+      border: solid;
+      border-width: 0.1rem;
+      transition: 0.2s;
+      color: #37415f;
+      background-color: aquamarine;
+    }
+  }
+}
