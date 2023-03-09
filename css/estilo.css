@@ -10,8 +10,7 @@
 }
 
 /* -----MEDIA QUERY 1024PX----- */
-/* --MEDIA QUERY TABLET-- */
-/* ---s-MEDIA QUERY MOBILE---- */
+
 @media screen and (max-width: 1024px) {
   .bienvenida {
     background-image: url(../imagenes/Volcan_main.jpg);
@@ -39,6 +38,9 @@
     background-position-y: 0rem;
   }
 }
+
+/* --MEDIA QUERY TABLET-- */
+
 @media screen and (max-width: 768px) {
   .imagenAnimada {
     flex-direction: column;
@@ -159,6 +161,9 @@
     padding-top: 20rem;
   }
 }
+
+/* ----MEDIA QUERY MOBILE---- */
+
 @media screen and (max-width: 425px) {
   .navegacion {
     flex-flow: row wrap;
