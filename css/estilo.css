@@ -24,7 +24,6 @@
     padding: 3rem;
     border-radius: 2rem;
     filter: none;
-    margin-bottom: 30rem;
   }
   .imagen1 {
     background-position-y: 0rem;
@@ -257,9 +256,8 @@
   }
   .bienvenida {
     background-image: url(../imagenes/Volcan_main.jpg);
-    background-image: center;
-    height: 200px;
-    width: 200px;
+    background-size: auto;
+    background-position-x: 75%;
   }
   .granito1 {
     padding-top: 20rem;
@@ -271,8 +269,8 @@
     height: 30rem;
     width: 30rem;
   }
-  .imagen2 {
-    padding-top: 20rem;
+  .aside {
+    margin-top: 8rem;
   }
 }
 * {
@@ -363,7 +361,6 @@ body {
 
 .bienvenida {
   background-image: url("../imagenes/Volcan_main.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
@@ -408,7 +405,7 @@ body {
   display: flex;
   text-align: center;
   row-gap: 3.5rem;
-  margin: 1rem;
+  margin: 3rem;
 }
 .contenedorFlex div {
   justify-content: center;

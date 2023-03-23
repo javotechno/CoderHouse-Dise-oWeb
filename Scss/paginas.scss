@@ -78,7 +78,6 @@ body {
 }
 .bienvenida {
   background-image: url("../imagenes/Volcan_main.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
@@ -120,7 +119,7 @@ body {
   display: flex;
   text-align: center;
   row-gap: 3.5rem;
-  margin: 1rem;
+  margin: 3rem;
   div {
     justify-content: center;
   }
