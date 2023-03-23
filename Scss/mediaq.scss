@@ -6,7 +6,6 @@
     background-size: cover;
     height: 800px;
     width: 1000px;
-    background-position: center center;
   }
   .textoInterior {
     color: antiquewhite;
@@ -193,11 +192,10 @@
     }
   }
   .contenedorFlex {
-    margin: 2rem 0rem;
+    margin: 1rem;
   }
   .formulario {
     width: 100%;
-    margin: 4rem 0rem;
   }
   .divBoton {
     flex-flow: column wrap;
@@ -254,20 +252,32 @@
     padding: 1rem;
   }
   .imgTitulovolcanes {
-    background-image: url(..//imagenes/volcan-header.jpg);
+    background-image: url(../imagenes/volcan-header.jpg);
     background-image: center center;
     width: auto;
   }
+  .titulo {
+    display: none;
+  }
   .bienvenida {
     background-image: url(../imagenes/Volcan_main.jpg);
-    background-image: center center;
-    background-position: center center;
-    width: auto;
+    background-image: center;
+    height: 200px;
+    width: 200px;
   }
   .granito1 {
     padding-top: 20rem;
   }
   .ejemplosrocas {
+    padding-top: 20rem;
+  }
+
+  .selectorVolcanes {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .imagen2 {
     padding-top: 20rem;
   }
 }
